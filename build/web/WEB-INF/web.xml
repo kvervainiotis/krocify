@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <!--    <servlet>
+        <servlet-name>MP3FileHandling</servlet-name>
+        <servlet-class>servlets.MP3FileHandling</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MP3FileHandling</servlet-name>
+        <url-pattern>/MP3FileHandling</url-pattern>
+    </servlet-mapping>-->
+    <servlet>
+        <servlet-name>PrintMp3s</servlet-name>
+        <servlet-class>servlets.PrintMp3s</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DownloadMp3</servlet-name>
+        <servlet-class>servlets.DownloadMp3</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SearchHandling</servlet-name>
+        <servlet-class>servlets.SearchHandling</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteMp3</servlet-name>
+        <servlet-class>servlets.DeleteMp3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PrintMp3s</servlet-name>
+        <url-pattern>/PrintMp3s</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DownloadMp3</servlet-name>
+        <url-pattern>/DownloadMp3</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SearchHandling</servlet-name>
+        <url-pattern>/SearchHandling</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteMp3</servlet-name>
+        <url-pattern>/DeleteMp3</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>/index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

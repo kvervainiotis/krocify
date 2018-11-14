@@ -1,0 +1,18 @@
+ body {
+    background-size: 100%;
+    background-image: url("maxresdefault.jpg");
+/*
+      min-height : 100%;
+  min-width : 100%;
+  background-size: 100%;
+  background-repeat:no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
+*/
+}
+            
+.card{                
+    padding: 12px ;
+}
+
+
